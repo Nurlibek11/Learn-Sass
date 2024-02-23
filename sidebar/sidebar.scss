@@ -1,0 +1,36 @@
+$bgColor:#000016;
+.sidebar{
+    flex: 1;
+    background-color: $bgColor;
+    min-height: 100vh;
+    position: sticky;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    .sidebar-logo{
+        color: #fff;
+    }
+    .sidebar-menu{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        button{
+            padding: 15px 10px;
+            border: none;
+            background-color: transparent;
+            border: 1px solid #2e374a;
+            border-radius: 10px;
+            &:hover{
+                background-color: #2e374a;
+                border-radius: 8px;
+            }
+        }
+        
+        .sidebar-link{
+            color: #b3c1de;
+            font-size: 20px;
+            text-decoration: none;
+        }
+    }
+}

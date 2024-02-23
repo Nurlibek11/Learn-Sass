@@ -1,0 +1,9 @@
+.navbar {
+  width: 100%;
+  padding: 20px 30px;
+  background-color: #000016;
+  position: sticky;
+}
+.navbar h1 {
+  color: #fff;
+}/*# sourceMappingURL=navbar.css.map */
